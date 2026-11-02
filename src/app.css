@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+/* Eigene Farben und Schriften für Tailwind (z.B. bg-paper, text-ink, font-serif) */
+@theme {
+	--color-paper: #f4f1ea;
+	--color-card: #fffdf8;
+	--color-ink: #23211d;
+	--color-ink-soft: #6b665c;
+	--color-line: #e2dccf;
+
+	--color-lane-do: #7b8794;
+	--color-lane-doing: #c08a2e;
+	--color-lane-done: #5f8a6b;
+	--color-lane-archiv: #a39e93;
+
+	--color-prio-low: #9bb0a0;
+	--color-prio-medium: #d4a64a;
+	--color-prio-high: #b8553a;
+
+	--color-warn: #b8553a;
+	--color-warn-bg: #f7e4dc;
+
+	--font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+	--font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
